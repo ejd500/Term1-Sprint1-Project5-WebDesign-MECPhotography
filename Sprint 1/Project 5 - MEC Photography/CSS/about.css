@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  
+body{
+    background-color: white;
+}
+ 
+main{
+    padding-top: 50px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+     
+}
+
+.mainbox{
+    width: 1000px;
+    height: 1500px;
+    background-color: white;
+    margin:30px;
+    text-align: left;
+   
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+h2{
+    font-family: fantasy;
+    line-height: 50px;
+}
+
+h5{
+    font-family: sans-serif;
+}
+
+/* Header Boxes*/
+
+.logobox{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    margin-top: 30px;
+    float: left;
+
+}
+.navbox{
+    width: 85px;
+    height: 30px;
+    background-color: white;
+    float: right;
+    margin-top: 70px;
+    margin-right: 25px;
+    padding-top: 5px;
+}
+
+nav a:link{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+nav a:visited{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+nav a:hover{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: blue;
+}
+
+/*Image Boxes*/
+
+
+.container{
+    position: relative;
+    display: inline-block;
+    width: 1000px;
+    height: 475px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.overlay-box {
+    position: absolute;
+    top: 380px;
+    width: 450px;
+    background-color: white;
+    border-right: 25px solid white;
+    border-top: 15px solid white;
+    padding-top: 10px;
+    font-family: fantasy;
+  }
+  
+  .overlay-img {
+    position: absolute;
+    top: 105px;
+    left: 425px;
+    border-top: 25px solid white;
+    border-left: 25px solid white;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+
+.textboxleft{
+    width:450px;
+    height:250px;
+    float:left;
+    padding-right: 40px;
+    margin-left: 50px;
+    border-right: 1px solid grey;
+    font-family: sans-serif;
+    line-height: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.textboxright{
+    width:450px;
+    height:250px;
+    float:right;
+    padding-left:40px;
+    margin-right:50px;
+    font-family: sans-serif;
+    line-height: 30px;
+    background-color: white;
+    text-align: center;
+
+}
+
+  
+  /* We would love to hear from you Box */
+  
+  .textbox2 {
+    width: 900px;
+    height: 150px;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 35px;
+    float: left;
+  }
+  
+  h4{
+    font-size: 14pt;
+  }
+  
+  .socialmedia {
+    color: black;
+    width: 200px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    float: left;
+    margin-left: 350px;
+    margin-top: 15px;
+    padding-top: 7px;
+  }
+  
+  .socialmedia a:link{
+    color: black;
+  }
+  .socialmedia a:visited {
+    color: black;
+  }
+  
+  .socialmedia a:hover {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .contactusbutton {
+    width: 150px;
+    height: 30px;
+    float: left;
+    background-color: grey;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 375px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 14pt;
+  }
+  .contactusbutton a:link{
+    text-decoration: none;
+  }
+  .contactusbutton a:visited{
+    color: white;
+  }
+  .contactusbutton a:hover{
+    font-weight: bold;
+  }
+
+  /* Footer */
+  
+  .footer {
+    clear: both;
+    margin-top: 30px;
+  }
+  
+  .topofpage {
+    width: 200px;
+    text-align: left;
+    background-color: white;
+    font-family: sans-serif;
+    float: left;
+    margin-top: 15px;
+  }
+
+  footer a:link{
+    color: black;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  footer a:visited {
+    color: black;
+  }
+
+  .copyright{
+    width: 200px;
+    text-align: right;
+    background-color: white;
+    font-family: sans-serif;
+    float: right;
+    margin-top: 15px;
+  }

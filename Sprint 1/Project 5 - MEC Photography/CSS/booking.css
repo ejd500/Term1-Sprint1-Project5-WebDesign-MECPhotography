@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  
+body{
+    background-color: white;
+}
+ 
+main{
+    padding-top: 50px;
+    font-family: sans-serif;
+    line-height: 30px;
+   
+}
+.mainbox{
+    width: 1000px;
+    background-color: white;
+    margin: 30px;
+    text-align: left;
+}
+
+img{
+    border-radius: 5%;
+ 
+}
+/* Header Boxes*/
+
+.logobox{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    margin-top: 30px;
+    float: left;
+
+}
+.navbox{
+    width: 85px;
+    height: 30px;
+    background-color: white;
+    float: right;
+    margin-top: 70px;
+    margin-right: 25px;
+    padding-top: 5px;
+}
+
+nav a:link{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+nav a:visited{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+nav a:hover{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: blue;
+}
+
+
+/* Main Section Boxes*/
+
+
+.text-with-pic{
+    display: flex;
+    line-height: 30px;
+    background-color: white;
+}
+.text-with-pic2{
+  line-height: 30px;
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+.text-with-pic-img1{
+  float: right;
+  margin-left: 40px;
+  width: 550px;
+  height: 360px;
+}
+
+.text-with-pic-img2{
+  float: right;
+  margin-left: 40px;
+  background-color: aqua;
+  margin-top: 35px;
+  width: 350px;
+  height: 435px;
+}
+
+.boldlisttext{
+    font-weight: 700px;
+}
+
+.text-with-pic a:link{
+    font-weight: bold;
+    color: black;
+    font-size: 14pt;
+    text-decoration:underline;
+}
+.text-with-pic a:visited{
+    color: black;
+    font-size: 14pt;
+    text-decoration:underline;
+}
+.text-with-pic a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.text-with-pic2 a:link{
+  font-weight: bold;
+  color: black;
+  font-size: 14pt;
+  text-decoration:underline;
+}
+.text-with-pic2 a:visited{
+  color: black;
+  font-size: 14pt;
+  text-decoration:underline;
+}
+.text-with-pic2 a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+/*Pricing*/
+
+.tableheader{
+    height: 50px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    text-align:center;
+    color:black;
+    background-color: lightgrey;
+}
+
+.tablerow1{
+    text-align: center;
+}
+.tablerow2{
+    text-align: center;
+    background-color: lightgray;
+}
+
+.alacartebox{
+    width: 1000px;
+    height:220px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.sessionphotobox1{
+  width:300px;
+  height: 200px;
+  float:left;
+  margin-bottom:80px;
+  margin-top: 40px;
+  background-color: white;
+}
+.sessionphotobox2{
+  width:300px;
+  height: 200px;
+  float:left;
+  margin-bottom:80px;
+  margin-top: 40px;
+  margin-left: 50px;
+  background-color: white;
+}
+.sessionphotobox3{
+  width:300px;
+  height: 200px;
+  float:right;
+  margin-bottom:80px;
+  margin-top: 40px;
+  background-color: white;
+
+}
+
+.bookingbox1{
+    width:300px;
+    height:250px;
+    float:left;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.bookingbox2{
+  width:300px;
+  height:250px;
+  float:left;
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+}
+.bookingbox3{
+  width:300px;
+  height:250px;
+  float:right;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+  /* We would love to hear from you Box */
+  
+  .textbox2 {
+    width: 900px;
+    height: 150px;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 35px;
+    float: left;
+  }
+  
+  h4 {
+    font-family: sans-serif;
+    font-size: 14pt;
+  }
+  
+  .socialmedia {
+    color: black;
+    width: 200px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    float: left;
+    margin-left: 350px;
+    margin-top: 15px;
+    padding-top: 7px;
+  }
+  
+  .socialmedia a:link{
+    color: black;
+  }
+  .socialmedia a:visited {
+    color: black;
+  }
+  
+  .socialmedia a:hover {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .contactusbutton {
+    width: 150px;
+    height: 30px;
+    float: left;
+    background-color: grey;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 375px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 14pt;
+  }
+  .contactusbutton a:link{
+    text-decoration: none;
+  }
+  .contactusbutton a:visited{
+    color: white;
+  }
+  .contactusbutton a:hover{
+    font-weight: bold;
+  }
+
+  /* Footer */
+  
+  .footer {
+    clear: both;
+    margin-top: 30px;
+  }
+  
+  .topofpage {
+    width: 200px;
+    text-align: left;
+    background-color: white;
+    font-family: sans-serif;
+    float: left;
+    margin-top: 15px;
+  }
+
+  footer a:link{
+    color: black;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  footer a:visited {
+    color: black;
+  }
+
+  .copyright{
+    width: 200px;
+    text-align: right;
+    background-color: white;
+    font-family: sans-serif;
+    float: right;
+    margin-top: 15px;
+  }
+
